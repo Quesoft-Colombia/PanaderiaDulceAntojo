@@ -1,11 +1,22 @@
 {
   "name": "api",
-  "version": "1.0.0",
+  "version": "0.0.01",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Quesotf-Colombia",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^4.11.0",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
