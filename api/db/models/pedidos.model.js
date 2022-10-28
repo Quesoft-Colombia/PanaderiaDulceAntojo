@@ -3,7 +3,7 @@ const pedidosSchema = mongoose.Schema({
     fechaentrega: 
     { 
         type: Date, 
-        default: Date.prototype.getDate,
+        default: new Date,
         require:[true, 'fecha de entrega requerida']
     },
     horaentrega: 
