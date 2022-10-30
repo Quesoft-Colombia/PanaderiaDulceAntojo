@@ -1,13 +1,13 @@
 import React from 'react';
 import type {Meta, StoryFn} from '@storybook/react';
 
-import type {loginProps} from './login';
-import {login} from './login';
+import type {InicioProps} from './Inicio';
+import {Inicio} from './Inicio';
 
 // Learn how to write stories:
-// https://github.com/Shopify/web/blob/master/app/stories/02-HowToWriteStories.stories.mdx
+// https://web.docs.shopify.io/docs/guides/storybook/how-to-write-story-files
 const meta: Meta = {
-  component: login,
+  component: Inicio,
   parameters: {
     // Embedding Figma designs
     // The embed appears in the "Design" tab of the story
@@ -22,7 +22,7 @@ const meta: Meta = {
 export default meta;
 
 // 👇 We create a "template" of how args map to rendering
-const Template: StoryFn<loginProps> = (args) => <login {...args} />;
+const Template: StoryFn<InicioProps> = (args) => <Inicio {...args} />;
 
 // 👇 Each story then reuses that template
 export const Basic = Template.bind({});
