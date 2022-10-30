@@ -3,9 +3,11 @@
 }
 
 .App-header {
-  background-image: url(../public/logo512.png);
+  background-image: url(../src/IMAGENES/logo512.png);
   background-repeat: no-repeat;
-  background-color: #f1f50a;
+  background-size: cover;
+  background-position: center, center;
+  background-color: darkgoldenrod;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
